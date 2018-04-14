@@ -44,19 +44,20 @@ chmod +x shadowsocksR.sh
 "workers": 1
 }
 ```
-安装完成后即已后台启动 ShadowsocksR ，运行：/etc/init.d/shadowsocks status
+安装完成后即已后台启动 ShadowsocksR ，运行：```/etc/init.d/shadowsocks status```
 可以查看 ShadowsocksR 进程是否已经启动。
 本脚本安装完成后，已将 ShadowsocksR 自动加入开机自启动。
 
 使用命令：
-启动：/etc/init.d/shadowsocks start
-停止：/etc/init.d/shadowsocks stop
-重启：/etc/init.d/shadowsocks restart
-状态：/etc/init.d/shadowsocks status
 
-配置文件路径：/etc/shadowsocks.json
-日志文件路径：/var/log/shadowsocks.log
-代码安装目录：/usr/local/shadowsocks
+启动：```/etc/init.d/shadowsocks start```
+停止：```/etc/init.d/shadowsocks stop```
+重启：```/etc/init.d/shadowsocks restart```
+状态：```/etc/init.d/shadowsocks status```
+
+配置文件路径：```/etc/shadowsocks.json```
+日志文件路径：```/var/log/shadowsocks.log```
+代码安装目录：```/usr/local/shadowsocks```
 
 如果你想修改配置文件，请参考：
 https://github.com/iMeiji/shadowsocks_install/blob/master/shadowsocksR-wiki/config.json.md
@@ -69,7 +70,7 @@ https://github.com/iMeiji/shadowsocks_install/blob/master/shadowsocksR-wiki/conf
 https://github.com/breakwa11/shadowsocks-rss
 https://shadowsocks.be/9.html
 
-#vps ip被谷歌学术禁掉
+# vps ip被谷歌学术禁掉
 有些vps运营商的ip会被谷歌学术禁掉。
 
 简单的解决方案是，购买支持ipv6的机器，修改机器的/etc/hosts指向谷歌学术的ipv6地址。
